@@ -934,6 +934,7 @@ describe("ListComponentScrollView (web)", () => {
             keyboardDismissMode: "on-drag",
             keyboardShouldPersistTaps: "handled",
             nestedScrollEnabled: true,
+            onContentSizeChange: () => {},
             overScrollMode: "never",
         };
         let renderer: TestRenderer.ReactTestRenderer | undefined;

@@ -130,6 +130,7 @@ const NATIVE_ONLY_SCROLL_VIEW_PROPS = new Set([
     "minimumZoomScale",
     "needsOffscreenAlphaCompositing",
     "nestedScrollEnabled",
+    "onContentSizeChange",
     "onScrollBeginDrag",
     "onScrollEndDrag",
     "onScrollToTop",
